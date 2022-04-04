@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(360deg, orange, yellow);
+}
+
+.right-content,.left-content{
+    flex-basis: 100%;
+}
+
+.container{
+    width: -60%;
+    margin-right: 50rem;
+    padding-top: 25px;
+    display: flex;
+}
+
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:80px;
+}
+
+.h1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Titulo-Home{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+.pokes{
+    width: 280px;
+    background-color: #F3D26B;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.abilities{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group{
+    background-color: #F3D26B;
+    color: black;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+
+.right-content img{
+    margin: 2rem;
+    height: 180px;
+}
+
+.btn-group button{
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    
+}  
+
+.btn-group{
+    display: flex;
+}
+
+.status-pokemon{
+    margin-top: 2rem;
+    margin-left: 22rem;
+    text-align: left;
+}
+
+input{
+    border: 3px solid #b74555;
+    width: 17rem;
+    height: 30px;
+    border-radius: 40%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.Compra{
+    padding-left: 80%;
+    text-align: center;
+
+}
+
+.compraButton{
+    outline: none;
+    border: none;
+    width: 170px;
+    padding: 0.5rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+.container2{
+    margin-right: 50rem;
+    padding-top: 2rem;
+    display: flex;
+
+}
+
+
+
